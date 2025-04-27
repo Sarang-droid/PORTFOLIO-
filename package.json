@@ -1,0 +1,10 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Shaunak Kate's Portfolio",
+    "scripts": {
+      "start": "vercel dev"
+    },
+    "author": "Shaunak Kate",
+    "license": "ISC"
+  }
