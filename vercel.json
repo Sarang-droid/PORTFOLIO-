@@ -13,6 +13,6 @@
         "destination": "/portfolio.html"
       }
     ],
-    "cleanURLS":true 
+    "cleanUrls":true 
 
   }
