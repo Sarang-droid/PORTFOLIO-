@@ -1,18 +1,16 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "public/**/*",
-        "use": "@vercel/static"
-      }
-    ],
-    "outputDirectory": "public",
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/portfolio.html"
-      }
-    ],
-    "cleanUrls":true 
-
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/portfolio.html"
+    }
+  ],
+  "cleanUrls": true
+}
