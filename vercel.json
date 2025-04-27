@@ -6,11 +6,5 @@
       "use": "@vercel/static"
     }
   ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/portfolio.html"
-    }
-  ],
   "cleanUrls": true
 }
