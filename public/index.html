@@ -466,47 +466,71 @@
         </div>
     </section>
 
-    <!-- Mentorship Section -->
+   
  <!-- Mentorship Section -->
+<!-- Mentorship Section -->
 <section id="mentorship" class="py-16 bg-[var(--skill-blue)] text-white">
     <div class="max-w-4xl mx-auto px-4 fade-in">
-        <h2 class="text-4xl font-bold mb-6">Seeking Mentorship</h2>
-        <p class="text-xl mb-4">
-            Over the past few months, I've built Skillexa along with foundational systems like CCFM (Canopy Cash Flow Management), 
-            RTJI (Real-Time Job Insights), the Tree and Branch model, and Canopy AI — creating a strong internal backbone before scaling aggressively.
-        </p>
-        <p class="text-xl mb-4">
-            While I’ve made significant progress, I realize that mentorship could help me unlock faster and smarter growth.
-        </p>
-        <p class="text-xl mb-4">
-            I'm actively seeking guidance on strategy, fundraising, scaling operations, and understanding the deeper nuances of company building and culture.
-        </p>
-        <p class="text-xl mb-6">
-            To learn hands-on, I'm also open to a 3-month unpaid internship — to immerse myself in real-world leadership environments and operational execution.
-        </p>
-        <p class="text-xl mb-6 font-semibold">
-            If you believe in supporting determined founders at the early stages, I’d be honored to connect and learn.
-        </p>
-        <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 mt-6">
-            <a href="https://www.linkedin.com/in/sarang-kate-54148423b/" target="_blank" class="section-button bg-[var(--skill-teal)] text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-600 transition text-center">
-                Connect on LinkedIn
-            </a>
-            <!-- Formspree Contact Form -->
-            <form action="https://formspree.io/f/meogowwj" method="POST" class="bg-white p-6 rounded-lg shadow-md w-full md:w-1/2">
-                <h3 class="text-xl font-semibold text-[var(--skill-blue)] mb-4">Send Me a Message</h3>
-                <input type="text" name="name" placeholder="Your Name" class="form-input" required>
-                <input type="email" name="_replyto" placeholder="Your Email" class="form-input" required>
-                <textarea name="message" placeholder="Your Message" class="form-textarea" required></textarea>
-                <input type="text" name="_gotcha" style="display:none">
-                <input type="hidden" name="_next" value="https://skillexa.in/thanks.html">
-                <button type="submit" class="section-button bg-[var(--skill-teal)] text-white px-6 py-3 rounded-full font-semibold hover:bg-teal-600 transition w-full">
-                    Send Message
-                </button>
-            </form>
+        <h2 class="text-4xl font-bold mb-8 text-center">Seeking Mentorship</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <!-- Text Content -->
+            <div class="space-y-6">
+                <p class="text-xl">
+                    Over the past few months, I've built Skillexa along with foundational systems like CCFM (Canopy Cash Flow Management), 
+                    RTJI (Real-Time Job Insights), the Tree and Branch model, and Canopy AI — creating a strong internal backbone before scaling aggressively.
+                </p>
+                <p class="text-xl">
+                    While I've made significant progress, I realize that mentorship could help me unlock faster and smarter growth.
+                </p>
+                <p class="text-xl">
+                    I'm actively seeking guidance on strategy, fundraising, scaling operations, and understanding the deeper nuances of company building and culture.
+                </p>
+                <p class="text-xl">
+                    To learn hands-on, I'm also open to a 3-month unpaid internship — to immerse myself in real-world leadership environments and operational execution.
+                </p>
+                <p class="text-xl font-semibold bg-[var(--skill-teal)] p-4 rounded-lg">
+                    If you believe in supporting determined founders at the early stages, I'd be honored to connect and learn.
+                </p>
+                
+                <!-- LinkedIn Button -->
+                <div class="text-center md:text-left">
+                    <a href="https://www.linkedin.com/in/sarang-kate-54148423b/" target="_blank" 
+                       class="inline-block bg-[var(--skill-teal)] hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg">
+                        Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="bg-white p-8 rounded-xl shadow-2xl">
+                <h3 class="text-2xl font-bold text-[var(--skill-blue)] mb-6 text-center">Send Me a Message</h3>
+                <form action="https://formspree.io/f/meogowwj" method="POST" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium mb-1">Your Name</label>
+                        <input type="text" id="name" name="name" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--skill-teal)] focus:border-transparent transition">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium mb-1">Email Address</label>
+                        <input type="email" id="email" name="_replyto" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--skill-teal)] focus:border-transparent transition">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-700 font-medium mb-1">Your Message</label>
+                        <textarea id="message" name="message" rows="4" required 
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--skill-teal)] focus:border-transparent transition"></textarea>
+                    </div>
+                    <input type="text" name="_gotcha" style="display:none">
+                    <input type="hidden" name="_next" value="https://skillexa.in/thanks.html">
+                    <button type="submit" 
+                            class="w-full bg-[var(--skill-teal)] hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 transform hover:scale-[1.02] shadow-md">
+                        Send Message
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 </section>
-
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6">
         <div class="max-w-4xl mx-auto px-4 text-center">
